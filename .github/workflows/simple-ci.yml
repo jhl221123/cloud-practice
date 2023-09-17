@@ -30,6 +30,10 @@
         - name: Grant execute permission for gradlew
           run : chmod +x gradlew
 
+        - name: Create gradle wrapper
+          run: |
+            ./gradlew wrap
+
         - name: Build with jib
           run: |
             ./gradlew jib \
