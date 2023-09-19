@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/test")
     public void test() {
-        System.out.println("워크플로우 불필요한 파이프라인 제거 후 빌드 테스트(3번째 시도)");
+        System.out.println("빌드 캐시 옵션 적용 후 빌드 속도 측정");
     }
 }
